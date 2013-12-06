@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>a little closer</title>
+    <meta name="description" content="providing an unexpected gift at an unexpected time">
+    <meta name="author" content="a little closer">
+    <meta name="keywords" content="gifts, startup, connecting, rv, traveling">
+    <meta name="generator" content="">
+
+    <!-- Mobile viewport optimized: h5bp.com/viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="/favicon.ico">
+    {% if is_mobile %}
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    {% endif %}
+    <link rel="stylesheet" href="/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="/css/vendor/bootstrap.min.css" rel="stylesheet" media="screen">
+
+    <!--fonts-->
+    <script type="text/javascript" src="//use.typekit.net/uti0ulz.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'REPLACEME']);
+        _gaq.push(['_setDomainName', 'REPLACEME']);
+        _gaq.push(['_trackPageview']);
+        (function () {
+            var ga = document.createElement('script');
+            ga.type = 'text/javascript';
+            ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+</head>
+<body>
+<div class="container" id="main_container">
+    <!--splash header-->
+    <div class="row" id="main_header">
+        <div class="col-xs-12 col-md-12">
+            <div id="container" class="container">
+                <ul id="scene" class="scene">
+                    <li class="layer" data-depth="0.00" ><img id="mountains" alt="a little closer mountains" src="images/mountains.png"></li>
+                    <li class="layer" data-depth="0.15" ><img id="landscape" alt="a little closer landscape" src="images/landscape.png"></li>
+                    <li class="layer" data-depth="0.25" ><img id="cloud1" alt="a little closer clouds" src="images/cloud1.png"></li>
+                    <li class="layer" data-depth="0.35" ><img id="cloud3" alt="a little closer clouds" src="images/cloud1.png"></li>
+                    <li class="layer" data-depth="0.20" ><img id="cloud2" alt="a little closer clouds" src="images/cloud2.png"></li>
+                    <li class="layer" data-depth="0.30" ><img id="cloud4" alt="a little closer clouds" src="images/cloud2.png"></li>
+                    <li class="layer" data-depth="0.35"><img id="sun" alt="a little closer sun" src="images/sun.png"></li>
+                    <li class="layer" data-depth="0.75" ><img id="dirt" alt="a little closer dirt" src="images/dirt.png"></li>
+                    <li class="layer" data-depth="0.55"><img id="rv" alt="a little closer logo" src="images/alc_final_rv_text.png"></li>
+
+                    <li class="layer" data-depth="0.75" ><img id="grass4" alt="a little closer grass" src="images/grass4.png"></li>
+                    <li class="layer" data-depth="0.85"><img id="grass3" alt="a little closer grass" src="images/grass3.png"></li>
+                    <li class="layer" data-depth="0.95"><img id="grass2" alt="a little closer grass" src="images/grass2.png"></li>
+                    <li class="layer" data-depth="1.00"><img id="grass1" alt="a little closer grass" src="images/grass1.png"></li>
+
+                </ul>
+                <div class="white" id="white_right"></div>
+            </div>
+        </div>
+        <div class="white" id="white_left"></div>
+        <div class="col-xs-12" id="small_spacer">
+            <img id="clear_image" src="/images/full_arrow.png">
+        </div>
+        <div class="col-xs-12 col-md-6 col-md-offset-6" id="header_text">
+            <div class="red_text">Narrowing the distance</div>
+            <div class="blue_text">between you and those you care about</div>
+            <!--<div><a href="#video_container">Watch the video</a></div>-->
+        </div>
+    </div>
+    <!--get alerted-->
+    <div class="row" id="get_alerted">
+        <div class="col-xs-12 col-md-12 col " id="get_alerted_min">
+            {% if not signup %}
+            <form role="form" action="">
+                <div class="col-xs-12 col-md-6 col-md-offset-2">
+                <div class="form-group">
+                    <input type="email" class="form-control" id="inputEmail" placeholder="Enter your email to join our invite list.">
+                </div>
+                    </div>
+                <div class="col-xs-2 col-md-2">
+                <button type="submit" class="btn btn-danger" id="signup_beta">Reserve Spot</button>
+                    </div>
+            </form>
+            {% endif %}
+            {% if signup %}
+            <h1>Thanks for already registering</h1>
+            {% endif %}
+        </div>
+
+    </div>
+    <!--how it works-->
+    <div class="row" id="explanation">
+        <div class="col-xs-12 col-md-3">
+            <div id="how_it_works">How it works</div>
+            <p>We provide a medium for people to connect through an <strong class="strong_text">unexpected gift at an
+                unexpected time.</strong></p>
+
+            <p>We will contribute up to <strong>$30</strong> to each gift at no cost to you.</p>
+        </div>
+        <div class="col-xs-12 col-md-3">
+                <div>
+                    <div class="red_text">Locate</div>
+                    <p class="descriptor">Check the map to see if we’re near a loved one.</p>
+                </div>
+
+        </div>
+        <div class="col-xs-12 col-md-3">
+            <div>
+                <div class="red_text">Select</div>
+                <p class="descriptor">Request a gift you’d like us to bring to them (food, flowers, pranks,
+                    <b>anything</b>).
+                </p>
+            </div>
+        </div>
+        <div class="col-xs-12 col-md-3">
+            <div >
+                <div class="red_text">Enjoy</div>
+                <p class="descriptor">Watch the video, view the pics and read our post to see how they reacted, then
+                    share it!</p>
+            </div>
+        </div>
+
+    </div>
+    <!--one liner description-->
+    <div class="row" id="one_liner_desc">
+        <div class="col-xs-12 col-md-12">
+            We are traveling the
+            country, connecting those who are distance-challenged.
+        </div>
+    </div>
+    <!--large description two bullets-->
+    <div class="row" id="two_bullets_desc">
+        <div class="col-xs-6 col-md-4 col-md-offset-2">
+            <div class="part_arrow"><img class="part_arrow_img" src="/images/part_arrow.png"></div>
+            With the delivery of a small gift, we help you surprise your friends and family who live far away.
+        </div>
+        <div class="col-xs-6 col-md-4">
+            <div class="part_arrow"><img class="part_arrow_img" src="/images/part_arrow.png"></div>
+            All we ask in return is the opportunity to learn more about this country from
+            the great people who live in it.
+        </div>
+    </div>
+    <!--separator-->
+    <div class="row" id="main_separator">
+        <div class="col-xs-12 col-md-12" id="sub_separator">
+            <div class="the_divider"></div>
+        </div>
+    </div>
+    <!--&lt;!&ndash;one liner video descriptor&ndash;&gt;-->
+    <!--<div class="row" id="one_liner_vid_desc">-->
+        <!--<div class="col-xs-12 col-md-12">Who do you want to stay connected with?</div>-->
+    <!--</div>-->
+    <!--&lt;!&ndash;video&ndash;&gt;-->
+    <!--<div class="row">-->
+        <!--<div class="col-xs-12 col-md-12" id="video_container">-->
+            <!--<iframe src="//player.vimeo.com/video/76939235?title=0&amp;byline=0&amp;portrait=0&amp;badge=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>-->
+        <!--</div>-->
+    <!--</div>-->
+    <!--final one liner-->
+    <div class="row" id="final_one_liner">
+        <div class="col-xs-12 col-md-12" id="first">
+            <img class="small_part" src="/images/part_arrow.png">
+            ￼￼We provide both the ‘delivery' component and the financial commitment of $30 per week to the gift submission of our choice.
+            <img class="small_part" src="/images/flip_part_arrow.png">
+        </div>
+        <div class="col-xs-12 col-md-12" id="second">
+            And yes, we will record and post the responses of the recipients so you can see it all happen.
+        </div>
+    </div>
+
+</div>
+<div id="footer">
+
+</div>
+
+
+<!--jquery-->
+<script type="text/javascript" src="/js/vendor/jquery.min.js"></script>
+<!--bootstrap-->
+<script type="text/javascript" src="/js/vendor/bootstrap.min.js"></script>
+<!--magnific popup-->
+<script type="text/javascript" src="/js/vendor/jquery.magnific-popup.min.js"></script>
+<!--script-->
+<script type="text/javascript" src="/js/script.min.js"></script>
+<!--parallax-->
+<script src="/js/vendor/jquery.parallax.min.js"></script>
+<script>
+
+    // Yep, that's it!
+    $('#scene').parallax();
+</script>
+<script>
+    $(function() {
+        $("#signup_beta").click(function() {
+            var alcEmail ='email=' + $("input#inputEmail").val();
+            $.ajax({
+                type: "POST",
+                url: "/add",
+                data: alcEmail,
+                success: function(e) {
+                    $('#get_alerted_min').html("<div id='message'></div>");
+                    if (e.stat_code == 2){
+                        $('#message').html("<h4>You have already signed up for our beta.</h4>")
+                                .append("<p>Your invite is coming soon.</p>");
+                    }
+                    else{
+                    $('#message').html("<h4>You have been added to our private beta!</h4>")
+                            .append("<p>Confirm your email and we will be in touch soon.</p>")
+                            .hide()
+                            .fadeIn(1500, function() {
+                                $('#message').append("<div></div>");
+                            });
+                    }
+                }
+            });
+            return false;
+        });
+    });
+</script>
+
+</body>
+</html>

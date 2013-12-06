@@ -1,0 +1,268 @@
+//The Style Sheet for a little closer
+
+//-------------Define company colors-------------//
+
+$alc_gray: #8B8D8A;
+$alc_darkgray: #4D4E4D;
+$alc_red: #D4472F;
+$alc_darkred: #88231B;
+$alc_green: #BDDDD2;
+$alc_blue: #B8DDDD;
+$alc_darkblue: #6A9191;
+
+
+//-------------general themes-------------//
+
+#main_container{
+
+  font-family: "proxima-nova",sans-serif;
+  font-style: normal;
+  font-weight: 300;
+}
+
+
+//-------------Define the main sections-------------//
+#main_header{
+  color: $alc_darkgray;
+
+  #mountains{
+    width:98%;
+
+  }
+  #landscape{
+    width:110%;
+    padding-top: 13%;
+    margin-left: -5%;
+  }
+  #cloud1{
+    width:20%;
+    margin-left: 10%;
+    margin-top:5%;
+  }
+  #cloud2{
+    width:30%;
+    margin-left: 50%;
+    margin-top:3%;
+  }
+  #cloud3{
+    width:20%;
+    margin-left: 15%;
+    margin-top:8%;
+  }
+  #cloud4{
+    width:20%;
+    margin-left: 46%;
+    margin-top:3%;
+  }
+  #sun{
+    width:30%;
+    margin-left: 80%;
+  }
+  #rv{
+    width:40%;
+    padding-top: 30%;
+    margin-left: 10%;
+  }
+  #dirt{
+    width:120%;
+    margin-left: -10%;
+    padding-top: 43%;
+  }
+  #grass4{
+    width:125%;
+    margin-left: -12%;
+    padding-top: 44%;
+  }
+  #grass3{
+    width:125%;
+    margin-left: -12%;
+    padding-top: 45%;
+  }
+  #grass2{
+    width:125%;
+    margin-left: -12%;
+    padding-top: 47%;
+  }
+  #grass1{
+    width:125%;
+    margin-left: -12%;
+    padding-top: 48%;
+  }
+
+  .white{
+    background-color: white;
+  }
+  #white_left{
+    position: absolute;
+    width: 30%;
+    height: 100%;
+    margin-left: -30%;
+    margin-top: -30%;
+  }
+  #white_right{
+    position: absolute;
+    width: 20%;
+    height: 100%;
+    margin-left: 97%;
+    margin-top: -30%;
+  }
+
+  #header_text{
+    //margin-left: 50%;
+  }
+
+  #small_spacer{
+
+    opacity: 0;
+    height: 80px;
+  }
+}
+
+#get_alerted{
+  margin-top: 5%;
+  //background-color: $alc_red;
+  #get_alerted_min{
+  }
+  #inputEmail{
+    width: 100%;
+    float: right;
+
+
+  }
+  #signup_beta{
+    margin-bottom: 20px;
+  }
+
+}
+
+#explanation{
+  background-color: $alc_green;
+  margin-bottom: 30px;
+  padding: 40px;
+  .red_text{
+    color: $alc_red;
+    font-size: 1.5em;
+  }
+  #how_it_works{
+    color: $alc_red;
+    font-size: 2em;
+    font-style: normal;
+    font-weight: 100;
+  }
+
+}
+
+#one_liner_desc{
+  padding: 20px;
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.3em;
+}
+
+#two_bullets_desc{
+  color:$alc_darkblue;
+}
+
+#main_separator{
+  #sub_separator{
+    width: 100%;
+    clear: both;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+    .the_divider{
+      width: inherit;
+      border-top: solid 2px #CCC;
+      border-bottom: solid 2px #FFF;
+      width: inherit;
+      height: 2px;
+      background-color: $alc_blue;
+
+    }
+  }
+}
+
+#one_liner_vid_desc{
+  color: $alc_blue;
+  font-size: 1.3em;
+  padding-bottom: 20px;
+  font-family: "proxima-nova",sans-serif;
+  font-style: normal;
+  font-weight: 500;
+}
+
+#video_container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px; height: 0; overflow: hidden;
+  iframe, object, embed{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+#final_one_liner{
+  color: $alc_darkgray;
+  #first{
+    text-align: center;
+    padding-top: 20px;
+  }
+  #second{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 50px;
+  }
+  .small_part{
+    width: 30px;
+    margin-top: -8px;
+  }
+}
+
+#footer{
+  width: 100%;
+  height: 25px;
+  background-color: $alc_blue;
+}
+
+//-------------Define helper classes-------------//
+
+.red_text{
+  color: $alc_red;
+  font-size: 2.0em;
+}
+
+.blue_text{
+  color: $alc_darkblue;
+  font-size: 1.2em
+}
+
+.full_arrow{
+}
+
+.arrow_img{
+}
+.part_arrow{
+  float: left;
+  height: 50px;
+}
+
+.part_arrow_img{
+  padding-right: 10px;
+  padding-top: 0%;
+
+}
+
+.strong_text{
+  color: $alc_red;
+}
+
+.descriptor{
+
+}
+
+#get_alerted_min{
+  text-align: center;
+}
